@@ -8,7 +8,7 @@ test('toMatch匹配器', () => {
 test('toContain匹配器', () => {
   const arr = ['dell', 'lee', 'imooc']
   const data = new Set(arr)
-  expect(data).toContain('dell')
+  expect(data).toContain('dellgg')
 })
 
 // 异常相关匹配器
